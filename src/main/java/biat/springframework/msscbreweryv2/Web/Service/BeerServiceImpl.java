@@ -21,6 +21,14 @@ public class BeerServiceImpl implements BeerService{
                 .build();
 
         }
+
+    @Override
+    public void updatebeerId(UUID beerId, BeerDto beerDto) {
+        // todo impl -would add a real update Beer
+        System.out.println("update beer");
+
+
     }
+}
 
 
